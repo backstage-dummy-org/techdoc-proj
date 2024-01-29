@@ -1,15 +1,14 @@
-site_name: "techdocs-proj"
-site_description: "example"
-
+site_name: techdocs-proj
+site_description: example
 nav:
   - Home: index.md
-  - 'User Guide':
-    - 'Section A': 'lorem.md'
-    - 'Section B': 'lorem.md'
+  - User Guide:
+      - Section A: lorem.md
+      - Section B: lorem.md
   - About:
-    - 'License': 'lorem.md'
-    - 'Release Notes': 'lorem.md'
-
+      - License: lorem.md
+      - Release Notes: lorem.md
+  - Architecture Decision Records:
+      - ADR-Test: ADR-Test.md
 plugins:
   - techdocs-core
-  
